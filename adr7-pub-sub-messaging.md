@@ -3,7 +3,7 @@
 ## STATUS
 Pending
 
-##DESCRIPTION
+## DESCRIPTION
 POS after a purchase must forward it with kiosk, customer and purchase information (3 items of type 2, and 4 of type 13) to the Inventory, 
 which must update the service by using those information or querying the SF of that kiosk, and must also forward it to the Purchase service, which must store the purchase information in case the customer is not Anonymous (i.e. purchase happened phisycally and the customer doesn't have the account).
 This could be done by exposing a REST endpoint in both Purchase and Inventory, using a single topic (pub/sub) or separate queues (p2p) for each service.
