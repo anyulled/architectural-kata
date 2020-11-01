@@ -6,6 +6,10 @@ O'Reilly Architectural Kata
 
 ![Actor Workflow](actor-workflow.jpg "Actor Workflow")
 
+## Requirements
+* [Requirements](requirements.md)
+* [Assumptions](assumptions.md)
+
 ### Architectural decisions
 
 * [Data Consistency](ADR1-data-consistency.md)
