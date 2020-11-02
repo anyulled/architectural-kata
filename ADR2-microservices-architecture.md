@@ -5,9 +5,9 @@ Accepted
 
 ## DESCRIPTION
 The current systems consists of several Kiosks on Detroit, which are pairs of Smart Fridges (SFs) and Toast Point Of Sales (POSs),
-being them two separate service ecosystems, however they'll expand across Michigan, Ohio, and Illinois
+being them two separate service ecosystems; however they'll expand across Michigan, Ohio, and Illinois
 to hopefully dozens of Kiosks.
-The basic architecture is therefore a set of service which we'll have to integrate through our solution
+The basic architecture is therefore a set of services which we'll have to integrate through our solution
 by means of reading SF APIs, reading and writing POS APIs:
 in practice, microservices architecture is not a choice but the facts on the ground.
 
