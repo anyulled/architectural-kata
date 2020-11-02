@@ -4,10 +4,20 @@
 Accepted
 
 ## DESCRIPTION
-As the system needs elasticity working on cloud and the services themselves are independent of each other communicating between themselves in a coreographed manner and requiring several architecrual quality attributes, the micro services architecture showed itself as the one who give us the required ones.
+The current systems consists of several Kiosks on Detroit, which are pairs of Smart Fridges (SFs) and Toast Point Of Sales (POSs),
+being them two separate service ecosystems, however they'll expand across Michigan, Ohio, and Illinois
+to hopefully dozens of Kiosks.
+The basic architecture is therefore a set of service which we'll have to integrate through our solution
+by means of reading SF APIs, reading and writing POS APIs:
+in practice, microservices architecture is not a choice but the facts on the ground.
 
 ## DECISION
-As we need to have elasticity, scalability, high availability, the micro services architecture gave us all in one out of box.
+Following the initial architecture we've implemented our solution
+in other microservices by main functions: Inventory, Purchase, Feedback, Survey, Recommendation.
 
 ## CONSEQUENCES
-This architecture brings us some drawback, microservices architecture bring more complexity and also make us bear with network communication of the components in the system as well as observe what is going on through the services themselves.
+Microservices come with a set of well-known cons,
+like poor performances (communication latency, message processing) or harder to test and monitor because of the complexity.
+They also come with a set of well-known pros, like to be ready to the cloud, better fault tolerance, better scalability.
+We'll leverage the versatility of microservices architecture applying decision to achieve quality attributes
+the global solution needs (scalability, elasticity, high availability, reliability).
