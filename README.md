@@ -34,4 +34,5 @@ Integrants:
 * [Content Delivery Network](ADR13-cdn.md)
 * [Config Service](ADR-12-Config-server.md)  
 * [Operational reuse with Service Mesh](ADR14-operational-reuse.md)  
-* [Tests](ADRXX-test.md)
+* [Metrics](ADR15-test.md)
+* [Service Testability](ADR16-services-testability.md)
