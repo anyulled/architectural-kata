@@ -12,7 +12,7 @@ Integrants:
 ## Components Diagram
 ![Components Diagram](Components-Diagram.jpg "Actor Workflow")
 
-![Actor Workflow](actor-workflow.jpg "Actor Workflow")
+![Actor Workflow](actor-workflow.png "Actor Workflow")
 
 ## Requirements
 * [Requirements](requirements.md)
