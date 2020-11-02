@@ -1,6 +1,14 @@
 # Architectural Kata
 O'Reilly Architectural Kata
 
+**Team:** The Boyz
+Integrants: 
+* _Anyul Rivas._
+* _Eduardo Raupp Pereira._
+* _Javier Garcia Cotado._
+* _Luiz Costa._
+* _Simone Carcangiu._
+
 ## Components Diagram
 ![Components Diagram](Components-Diagram.jpg "Actor Workflow")
 
@@ -25,4 +33,5 @@ O'Reilly Architectural Kata
 * [Stateful store for Customer](ADR11-replayable-log.md)
 * [Content Delivery Network](ADR13-cdn.md)
 * [Config Service](ADR-12-Config-server.md)  
+* [Operational reuse with Service Mesh](ADR14-operational-reuse.md)  
 * [Tests](ADRXX-test.md)
