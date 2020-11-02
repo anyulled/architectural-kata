@@ -1,4 +1,4 @@
-ADR14. Operational reuse with the sidecar pattern
+#ADR14. Operational reuse with the sidecar pattern
 
 ## STATUS
 Accepted
